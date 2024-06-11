@@ -3,7 +3,7 @@ import "./globals.css";
 import Header from "./components/Header";
 import CartSidebar from "./components/CartSidebar";
 import CartProvider from "./components/CartProvider";
-
+import {Toaster} from './components/ui/toaster'
 const rajdhani = Rajdhani({
   subsets: ["latin"],
   weight: ['300', '400', '500', '600', '700'],
@@ -22,6 +22,7 @@ export default function RootLayout({ children }) {
         <CartProvider>
         <Header />
         {children}
+        <Toaster className="bg-black mb-4"/>
         </CartProvider>
        
       </body>

@@ -20,6 +20,7 @@ const getdata = async () => {
 
 const PopularBangiay = async () => {
     const bangiay = await getdata();
+
     return (
         <section className="py-24">
             <div className="container mx-auto">

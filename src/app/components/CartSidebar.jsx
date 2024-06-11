@@ -26,11 +26,11 @@ const CartSidebar = () => {
             </>
 {cartCount >0 &&(
     <div>
-        <div className='flex justify-between font-semibold'>
-            <div className='uppercase mb-5'>Total</div>
+        <div className='flex justify-between font-semibold '>
+            <div className='uppercase '>Total</div>
             <div>${totalPrice}</div>
         </div>
-        <CheckOutBtn/>
+        <CheckOutBtn className='mb-[100px]'/>
     </div>
 )}
 

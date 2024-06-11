@@ -34,6 +34,7 @@ const Giay = ({ giay }) => {
 
                 <div className=" absolute top-8 left-0 right-0 bottom-0 flex justify-center items-center gap-[10px] opacity-0 group-hover:opacity-100 transition-all">
                     <AddCardBtn 
+                   price_id={giay.price_id}
                     name={giay.name}  
                     description ={giay.description} 
                     images={giay.images}
